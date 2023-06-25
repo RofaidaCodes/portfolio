@@ -154,14 +154,14 @@ section {
 }
 .projects-container>div{
   position: relative;
-  top: 20vh;
-  margin: 0;
+  margin: 20vh 0 0 0;
 }
 .project-card {
   padding: 0;
   position: relative;
   overflow-y: hidden;
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  margin: 7vh 2vw ;
 }
 .project-desc{
   position: absolute;
@@ -201,18 +201,19 @@ section {
 }
 /*--------------------------*/
 .contact-container{min-height: 100vh; background-color: #1D5C63; padding: 20vh 2vw 0vw;}
-.contactme{
+.contactme {
   color: #fff;
   padding: 5vw;
 }
-.contactme span{
-  color: #dddddd;
+.contactme h4{ font-size: 3em;}
+.contactme strong{
+  color: #e4aaa3;
 }
 .socialLinks{margin: 3vw;}
 .socialLinks a{
-  margin: 1vw;
+  margin: 0.5em;
   color: #fff !important;
-  font-size: 3vw;
+  font-size: 3.5em;
 }
 .socialLinks a:hover{
   color: #dddddd !important;
@@ -231,6 +232,8 @@ footer{
   .project-desc h4{font-size: 3vw;}
   .project-desc h6,.project-desc a{font-size: 2.5vw;}
   .project-desc li,.project-desc p{font-size: 1.8vw;}
+  .socialLinks a{font-size: 2em;}
+  .contactme h4{ font-size: 0.8em;}
 }
 
 /*----------drawing-------*/
